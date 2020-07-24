@@ -1,0 +1,28 @@
+ <html>
+<head>
+    <title>SignIn</title>
+    <link rel="stylesheet" href="signin.css"/>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <h2>SignIn</h2>
+            <form id="form_id" method="post">
+
+                <label>UserName :</label>
+                <input type="text" name="username" id="username"/>
+
+                <label>Password :</label>
+                <input type="password" name="password" id="password"/>
+
+                <input type="button" value="Login" id="submit" onclick="checkUserIdPassword()"/>
+            </form>
+            <span><b class="note" style="color: blue;">Note : </b>Suggested Credentials: <br/><b class="valid" style="color: green;">User Name : EpamPEP<br/>Password : EPAMPEP@2020</b></span>
+        </div>
+    </div>
+</body>
+
+<script src="signin.js"></script>
+
+</html>
